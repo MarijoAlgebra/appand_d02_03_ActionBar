@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/abPhonelink"
+        android:icon="@drawable/ic_phonelink_erase_white_24dp"
+        android:title="Phonelink"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/abComposite"
+        android:icon="@drawable/ic_settings_input_composite_white_24dp"
+        app:showAsAction="never"
+        android:title="Composite" />
+
+    <item
+        android:id="@+id/abHdmi"
+        android:icon="@drawable/ic_settings_input_hdmi_black_24dp"
+        android:title="HDMI"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/abOverscan"
+                android:icon="@drawable/ic_settings_overscan_black_24dp"
+                android:title="Overscan"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/abShare"
+                android:icon="@drawable/ic_stop_screen_share_white_24dp"
+                android:title="Share"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+</menu>
